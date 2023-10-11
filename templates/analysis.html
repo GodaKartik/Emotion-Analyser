@@ -1,0 +1,26 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project - Analysis</title>
+
+    <link ty rel="stylesheet" href="{% static '/styles.css' %}">
+</head>
+<body>
+    <h2 class="center">you seem {{prime_emotion}} !!</h2>
+    <table class="table">
+        <tr class="tableR">
+            <th class="tableH">Emotion</th>
+            <th class="tableH">Percentage</th>
+        </tr>
+        {% for i,j in emotions.items %}
+        <tr class="tableR">
+            <td class="table_netry">{{ i }}</td>
+            <td class="table_netry">{{ j }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

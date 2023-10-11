@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+    --bodyFontFamily: 'Fuzzy Bubbles', cursive;
+    --headFontFamily:'Times New Roman';
+    --buttonFontfamily: 'Pacifico', cursive;
+}
+
+body{
+    background: var(white);
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: auto;
+}
+
+.center{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head{
+    font-family: var(--headFontFamily);
+    font-size: 40;
+    padding-top: 1%;
+    text-decoration: underline;
+}
+.info{
+    font-size: 10;
+    text-align: right;
+    margin: 1%;
+}
+/* .info:click{
+    font-size: 20;
+    cursor: pointer;
+} */
+
+.image{
+    height: 300;
+    border-radius: 25px;
+    /* border: white 1px solid; */
+}
+.intro{
+    font-family: var(--bodyFontFamily);
+    font-size: 20;
+    text-align: justify;
+    padding: 1%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    font-family: var(--buttonFontfamily);
+    font-size: 20pt;
+    color: black;
+    background: white;
+    border-radius: 10px;
+    padding: 10;
+    margin-bottom: 1%;
+}
+.button:hover{
+    background: gray;
+    cursor: pointer;
+}
+
+.small_button{
+    font-family: var(--buttonFontfamily);
+    font-size: 15pt;
+    color: black;
+    background: white;
+    border-radius: 10px;
+    padding: 10;
+    margin-bottom: 1%;
+}
+.small_button:hover{
+    background: gray;
+    cursor: pointer;
+}
+
+.textbox{
+    padding: 1%;
+    margin: 0 auto;
+}
+.textArea{
+    resize: none;
+    max-width: 90%;
+    box-sizing: border-box;
+    max-height: 35%;
+    padding: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    border: black solid 1px;
+    color: black;
+    font-size: 20px;
+    font-family: var(--bodyFontFamily);
+    font-weight: bold;
+}
+.user-gen-text-ar{
+    max-height: 20%;
+}
+
+.image{
+    height: 350;
+    padding: 1%;
+    border-radius: 25px;
+}
+
+.tableH{
+    border: solid black 1px;
+}
+.tableR{
+    border: solid black 1px;
+}
+
+.table{
+    margin: auto;
+}

@@ -1,0 +1,42 @@
+{% comment %} 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project - {% block title %}Home{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    {% block body %}
+    
+    {% endblock %}
+</body>
+</html> {% endcomment %}
+
+
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project - Home</title>
+
+    <link ty rel="stylesheet" href="{% static '/styles.css' %}">
+</head>
+<body>
+    <h1 class="head center">Mood Prediction</h1>
+    <div class="info">
+        <p>CSE3002 ( AI ) Mini Project</p>
+        <p>Goda Kartik ( 21BCE7368 )</p>
+    </div>
+    <img class="center image" src="{% static 'images/home.png' %}" alt="Home Image">
+    <p class="center intro"></p>
+    <div class="center">
+        <button class="button small_button"><a href="https://github.com/GodaKartik/AI-MiniProject-Code" target="_blank">Source Code</a></button>
+        <button class="button"><a href="/project">Get Started !!!</a></button>
+        <button class="button small_button"><a href="#" target="_blank">Project Report</a></button>
+    </div>
+</body>
+</html>
